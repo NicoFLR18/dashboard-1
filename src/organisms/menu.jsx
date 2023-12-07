@@ -24,7 +24,7 @@ const tier = [
 
 function Menu() {
   return (
-    <Box className= 'Menu-Box'>
+    <Box className= 'menu-box'>
       <Avatar className= 'avatar' src={logo} sx={{ marginTop: 2, marginBottom: 2 }} />
       <Box className= 'type'>
         <Autocomplete
