@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: "Poppins";
+    overflow: hidden;
+}
+
+hr {
+    width: 220px;
+}
+
+.menu-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #101827;
+    height: 100vh;
+}
+
+.avatar {
+    /* position: absolute; */
+    right: 60px;
+}
+
+.items-boxes {
+    color: #EEF3FD;
+}
+
+.type {
+    background-color: #192130;
+    color: #EEF3FD;
+}
+
+.type label {
+    color: #EEF3FD;
+}
+
+.white-text input {
+    color: #fff;
+}
+
+/**KPI card styles*/
+.kpi-container {
+  min-height: 160px;
+  padding: 0px 20px;
+  margin-top: -30px;
+}
+.card-header-container {
+  display: flex;
+}
+.card-title-container {
+  flex: 1;
+  line-height: 8px;
+}
+.card-title {
+  color: #9396A1;
+  text-transform: uppercase;
+}
+.card-icon-container {
+  padding: 24px 0px;
+}
+.card-container {
+  display: flex;
+  height: 170px;
+  justify-content: space-between;
+}
+.progress-bar {
+  padding-top: 16px;
+  width: 100%;
+}
+.increase {
+  color: #14B8A7;
+  margin-bottom: -4px;
+}
+.decrease {
+  color: #CD4344;
+  margin-bottom: -4px;
+}
+.gain {
+  color: black;
+  font-weight: 500;
+}
+.kpi-footer {
+  color: #9396A1;
+}
+/**  bar chart styles **/
+.bar-chart-container {
+  min-height: 377px;
+}
+.bar-chart-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+.bar-chart-title h3 {
+  margin: -10px;
+  padding: 10px;
+}
+.bar-chart-info {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.chart-filter {
+  color: #3F51B4;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.current-year span {
+  background-color: #3F51B4;
+  color: #3F51B4;
+  font-size: 0.8rem;
+}
+.last-year span {
+  background-color: #EEEEEE;
+  color: #EEEEEE;
+  font-size: 0.8rem;
+}
+.bar-chart {
+  display: flex;
+  justify-content: center;
+}
+/** pie chart styles **/
+.pie-chart-container {
+    min-height: 377px;
+}
+.pie-chart-header {
+  margin: 0;
+  padding: 2px;
+}
+.pie-chart-icons {
+  color: #6B7280;
+  display: flex;
+  justify-content: space-around;
+  width: 280px;
+}
+table {
+  width: 285px;
+}
+.pie-chart-table tbody th {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0px 12px;
+}
+.pie-chart-table tbody tr:last-child {
+  font-size: 2rem;
+  padding: 0px 12px;
+}
+.pie-chart-footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
